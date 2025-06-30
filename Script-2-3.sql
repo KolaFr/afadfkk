@@ -16,7 +16,7 @@ WHERE name NOT LIKE '% %';
 
 SELECT title
 FROM Tracks
-WHERE title ILIKE '%my%';
+WHERE title ILIKE 'my';
 
 SELECT g.name, COUNT(ag.artist_id) AS artist_count
 FROM Genres g
